@@ -61,7 +61,6 @@ window.addEventListener("DOMContentLoaded", function () {
     var pageLanguage = localStorage.getItem("language");
     if(pageLanguage == "eng"){
         //header
-        /*$('.menu-bar').children("div").eq(1).children("div").eq(0).children("a").text(language.pt.index.navbar.home);*/
         $('.nav-list').children("li").eq(0).children("a").text(language.eng.index.header_e_footer.materiais);
         $('.nav-list').children("li").eq(1).children("a").text(language.eng.index.header_e_footer.bianco);
         $('.nav-list').children("li").eq(2).children("a").text(language.eng.index.header_e_footer.contato);
@@ -141,7 +140,6 @@ window.addEventListener("DOMContentLoaded", function () {
 
     $('.language').click(function(){
         localStorage.setItem("language", $(this).attr('id'));
-        //console.log($(this).attr('id'));
         setTimeout(function () {
             location.reload(true);
         }, 150)
@@ -200,11 +198,7 @@ window.addEventListener("DOMContentLoaded", function () {
 
     mobileNavbar.init();
 
-    /*function menuToggle(){
-    }*/
-
     var gallery_swiper = new Swiper(".gallery-swiper", {
-        /*effect: "coverflow",*/
         centeredSlides: true,
         slidesPerView: "auto",
         loop: true,
@@ -218,39 +212,7 @@ window.addEventListener("DOMContentLoaded", function () {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
-        /*coverflowEffect: {
-            rotate: 0,
-            stretch: 0,
-            depth: 00,
-            modifier: 0,
-            slideShadows: false,
-        },*//*
-        loop: true,*/
-        /*
-        breakpoints: {
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 5,
-            spaceBetween: 10,
-          },
-        },*/
     });
-    /*$('.gallery-swiper').mouseleave(function() {
-        gallery_swiper.autoplay.start();
-        console.log('slider started again');
-    });
-    
-    $(".gallery-swiper").mouseenter(function() {
-        gallery_swiper.autoplay.stop();
-        console.log('slider stopped');
-    });*/
 
     $('.gallery-banner img').click(function(){
         console.log("clicado: " + $(this).attr('id'));
@@ -299,7 +261,6 @@ window.addEventListener("DOMContentLoaded", function () {
             Host: "smtp.gmail.com",
             Username: 'ldbmaildealer@gmail.com',
             Password: "jzkocqnlqfdoeuhr",
-            //To: `${email}`,
             To: `leo_nardo136@hotmail.com`,
             From: 'ldbmaildealer@gmail.com',
             Subject: `${name} has interest in your product`,

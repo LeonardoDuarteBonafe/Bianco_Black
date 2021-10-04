@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
@@ -22,30 +21,7 @@
     <title>Bianco e Black</title>
 
     <body class="index-page">
-        <!--<header>
-<nav>
-<div class="social">
-<img src="Images/Navbar/facebook-icon.png" class="facebook">
-<img src="Images/Navbar/instagram-icon.png" class="instagram">
-<img src="Images/Navbar/whatsapp-icon.png" class="whatsapp">
-<img src="Images/Navbar/linkedin-icon.png" class="linkedin">
-<img src="Images/Navbar/br-icon.png">
-<img src="Images/Navbar/en-icon.png">
-</div>
-<a class="logo" href="index.php">
-<img src="Images/Navbar/logo.png"></a>
-<div class="mobile-menu">
-<div class="line1"></div>
-<div class="line2"></div>
-<div class="line3"></div>
-</div>
-<ul class="nav-list">
-<li><a href="#materiais">MATERIAIS</a></li>
-<li><a href="#empresa">BIANCO E BLACK</a></li>
-<li><a href="#contato">CONTATO</a></li>
-</ul>
-</nav>
-</header>-->
+
         <?php 
         include 'php/header.html';
         ?>
@@ -173,74 +149,6 @@
         include 'php/maps.html';
         include 'php/footer.html';
         ?>
-
-        <!--formulario-->
-        <!--<div class="contato row d-flex justify-content-center" id="contato">
-<img src="Images/Formulario/fundo.png" class="background">
-<div class="col-10">
-<div class="row">
-<div class="info col-12 col-sm-6">
-<h1>Fale Conosco</h1>
-<p class="title-square"></p>
-<p>Entre em contato preenchendo o formulário ou através do telefone ou e-mail.</p>
-</div>
-<div class="form col-12 col-sm-6">
-<div>
-<p>Seu nome (obrigatório)</p>
-<input class= "form-text" type="text" name="nome" id="nome" placeholder="">
-</div>
-<div>
-<p>Seu e-mail (obrigatório)</p>
-<input class= "form-text" type="text" name="email" id="email" placeholder="">
-</div>
-<div>
-<p>Assunto</p>
-<input class= "form-text" type="text" name="assunto" id="assunto" placeholder="">
-</div>
-<div>
-<p>Sua mensagem</p>
-<textarea class= "form-text" type="text" name="mensagem" id="mensagem" placeholder="" rows="5"></textarea>
-</div>
-<button class="send-form">Enviar</button>
-</div>
-</div>
-</div>
-</div>
--->
-        <!--maps-->
-        <!--<div class="maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.804743914493!2d-41.07448648545086!3d-20.799185771293743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb969044d7bff8b%3A0x2c393ad7d0934e!2sBianco%26Black!5e0!3m2!1spt-BR!2sbr!4v1628343024668!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>-->
-
-        <!--    <footer class="row">
-<div class="logo col-12 col-md-3">
-<a href="#"><img src="Images/Footer/logo.png"></a>
-</div>
-<div class="info col-12 col-md-3">
-<a href="">Início</a>
-<a href="#materiais">Materiais</a>
-<a href="#empresa">Bianco e Black</a>
-<a href="#contato">Contato</a>
-<div class="social">
-<a><img src="Images/Footer/facebook-icon.png" class="facebook"> </a>
-<a><img src="Images/Footer/instagram-icon.png" class="instagram"> </a>
-<a><img src="Images/Footer/whatsapp-icon.png" class="whatsapp"> </a>
-<a><img src="Images/Footer/linkedin-icon.png" class="linkedin"> </a>
-</div>
-</div>
-<div class="endereco col-12 col-md-4">
-<h4>Empresa</h4>
-<p>Rod. Gumercindo Moura Nunes, 06<br>
-Cachoeiro de Itapemirim, ES <br>
-CEP 29309-362</p>
-<p>+55 28 3333-3333 <br>
-biancoeblack@hotmail.com</p>
-</div>
-<div class="copyright col-12">
-<p>Copyright 2021 - All Rights Reserved • Bianco e Black</p>
-</div>
-</footer>
--->
     </body>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </html>

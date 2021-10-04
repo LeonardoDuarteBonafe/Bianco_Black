@@ -38,10 +38,6 @@ html{
     scroll-behavior: smooth;
 }
 
-.teste{
-    /background-color: aqua;
-}
-
 body{
     width: 100%;
     max-width: 1366px !important;
@@ -50,7 +46,6 @@ body{
 }
 
 header{
-    /position: fixed;
     z-index: 100;
     width: 100%;
     max-width: 1366px;
@@ -73,22 +68,18 @@ header nav .logo{
     height: 100% !Important;
     display: flex;
     justify-content: center;
-    /background-color: beige;
 }
 
 header nav .logo img{
     max-width: 150px !important;
     padding: 30px 0;
-    /background-color: green;
 }
 
 header nav{
     display: flex;
     justify-content: center;
-    /padding: 0 50px 0 70px;
     padding: 0;
     align-items: center;
-    /background: #23232e;
     height: 100%;
     background: white;
     background-image: url(Images/Index/Navbar/fundo.png);
@@ -102,7 +93,6 @@ header nav .nav-list{
     justify-content: center;
     margin: 0 !important;
     padding: 0 !important;
-    /background-color: aqua;
     width: 40%;
 }
 
@@ -110,7 +100,6 @@ header nav .social{
     width: 40%;
     display: flex;
     justify-content: center;
-    /filter: grayscale(1) !important;
 }
 
 header nav .social img{
@@ -170,7 +159,6 @@ header nav .mobile-menu div{
 }
 
 .carousel-top .carousel-inner .carousel-item p{
-    /font-family: goudyOldStyleRegular;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -180,7 +168,6 @@ header nav .mobile-menu div{
     width: 50%;
     text-align: right;
     color: white;
-    /background-color: blue;
     font-size: 2.3rem;
     opacity: 0;
     transform: translateX(20px);
@@ -195,7 +182,6 @@ header nav .mobile-menu div{
 }
 
 .carousel-top .carousel-indicators{
-    /background-color: purple;
     margin: 0 !important;
     margin-bottom: 30px !important;
     width: 50%;
@@ -207,7 +193,6 @@ header nav .mobile-menu div{
 }
 
 .carousel-top .carousel-indicators li{
-    /background-color: yellow;
     width: 25px;
     height: 25px;
     margin: 0 10px;
@@ -237,15 +222,6 @@ header nav .mobile-menu div{
     font-size: 4rem;
 }
 
-/*.title{
-/background-color: aquamarine;
-color: var(--primary-color);
-text-align: center;
-width: 100%;
-padding: 25px 0;
-margin: 0 !important;
-}*/
-
 .materiais{
     width: 100% !important;
     max-width: 1366px !important;
@@ -256,7 +232,6 @@ margin: 0 !important;
     position: absolute;
     width: 100%;
     height: 100%;
-    /background-color: rgba(0,0,255, 0.3);
     z-index: -1;
 }
 
@@ -274,7 +249,6 @@ margin: 0 !important;
 
 .materiais .info p{
     padding: 20px 0 !important;
-    /font-family: goudyOldStyleRegular;
     font-size: 1.5rem;
 }
 
@@ -284,7 +258,6 @@ margin: 0 !important;
     margin: 0 5% !important;
     max-width: 1366px !important;
     height: 480px;
-    /background-color: beige;
     padding-top: 10px !important;
     overflow: hidden;
 }
@@ -295,7 +268,6 @@ margin: 0 !important;
     background-size: cover;
     width: 20% !important;
     height: 250px !important;
-    /*-webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0002);*/
     position: relative;
     display: flex !important;
     justify-content: center;
@@ -306,7 +278,6 @@ margin: 0 !important;
 
 .materiais .gallery-swiper .swiper-slide img 
 {
-    /*display: block;*/
     width: 100%;
     height: 100%;
     transition: 1s;
@@ -323,25 +294,16 @@ margin: 0 !important;
     position: absolute;
     color: black;
     bottom: 0;
-    /background-color: red;
     width: 80% !important;
     text-align: center;
-    /font-family: goudyOldStyleRegular;
     text-transform: uppercase;
     transition: 1s;
 }
-
-/*.materiais .gallery-swiper .swiper-slide:hover p{
-opacity: 1;
-transform: translateY(-20px);
-}*/
 
 .materiais .gallery-swiper .swiper-slide-active{
     transition: 1s;
     padding: 0 0% !important;
     height: 300px !important;
-    /margin-top: 70px !important;
-    /transform: translateY(70px);
     animation: activeMove 0s;
     animation-fill-mode: forwards;
 }
@@ -363,16 +325,11 @@ transform: translateY(-20px);
 
 .materiais .gallery-swiper .swiper-slide-prev
 {
-    /transition: 1s;
-    /margin-top: 35px !important;
-    /transform: translateY(0px);
     padding: 0 3% 0 0 !important;
 }
 
 .materiais .gallery-swiper .swiper-slide-next
 {
-    /margin-top: 50px !important;
-    /transform: translateY(0px);
     padding: 0 0% 0 3% !important;
 }
 
@@ -455,7 +412,6 @@ transform: translateY(-20px);
 
 .empresa div{
     width: 45%;
-    /background-color: aquamarine;
 }
 
 .empresa .imagens{
@@ -464,7 +420,6 @@ transform: translateY(-20px);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /background-color: yellow;
 }
 
 .empresa .imagens div{
@@ -518,7 +473,6 @@ transform: translateY(-20px);
 }
 
 .empresa .info p{
-    /font-family: goudyOldStyleRegular;
     text-transform: uppercase;
     font-size: 1.6rem;
     text-align: justify;
@@ -591,7 +545,6 @@ transform: translateY(-20px);
     border-radius: 3px;
     font-family: robotoBold;
     background-color: white;
-    /color: #959598;
     color: black;
     border-color: white;
     cursor: pointer;
@@ -623,7 +576,6 @@ footer{
     margin: 0 !important;
     display: flex;
     justify-content: center;
-    /align-items: center;
     color: white;
     background-image: url(Images/Index/Footer/fundo.png);
     background-size: cover;
@@ -634,10 +586,6 @@ footer{
     font-family: robotoRegular;
 }
 
-footer div{
-    /background-color: darkblue;
-}
-
 footer .logo{
     padding-top: 20px;
     display: flex;
@@ -646,7 +594,6 @@ footer .logo{
 }
 
 footer .info{
-    /background-color: yellow;
     padding: 0 2.5%;
 }
 
@@ -658,7 +605,6 @@ footer .info a:first-child{
 footer .info a{
     color: white;
     display: flex;
-    /background-color: aqua;
     width: 200px;
     font-size: 1.6rem;
     font-family: robotoRegular;
@@ -668,7 +614,6 @@ footer .info .social{
     margin-top: 15px;
     display: flex;
     flex-direction: row;
-    /background-color: purple;
 }
 
 footer .info .social a{
@@ -711,7 +656,6 @@ footer .copyright p{
     margin: 0 !important;
     padding: 0 !important;
     padding: 50px 0 !important;
-    /background-color: blue;
 }
 
 .page-product .col-10{
@@ -721,15 +665,12 @@ footer .copyright p{
 
 .page-product .materiais.row{
     margin: 0 !important;
-    /background-color: yellow;
 }
 
 .page-product .materiais div{
     height: 450px;
     transition: 1s;
     margin-bottom: 20px;
-    /background-color: green;
-    //overflow: hidden;
 }
 
 .page-product .materiais div .box{
@@ -738,7 +679,6 @@ footer .copyright p{
     width: 100%;
     max-width: 280px;
     margin: 0 auto;
-    /background-color: red;
     height: 100%;
     object-fit: cover;
     transition: 1s;
@@ -766,14 +706,12 @@ footer .copyright p{
 
 @media (max-width: 999px){
     header nav{
-        /padding: 0 125px 0 100px;
         padding: 0 !important;
         justify-content: space-between;
         padding: 0 60px !important;
     }
 
     header nav .mobile-social{
-        /filter: grayscale(1);
         display: block;
         display: flex;
         flex-direction: column;
@@ -793,8 +731,6 @@ footer .copyright p{
         width: 300px;
         height: 300px;
         padding: 0 !Important;
-        /background: #23232e;
-        /background: aqua;
         background-image: url(Images/Index/Navbar/fundo.png);
         background-color: var(--secondary-color);
         background-size: cover;
@@ -807,7 +743,6 @@ footer .copyright p{
     }
 
     header nav .logo{
-        /background-color: green;
         width: 200px;
     }
     header nav .logo img{
@@ -889,12 +824,10 @@ footer .copyright p{
         padding: 0 0px 0 0 !important;
         width: 100%;
         text-align: center;
-        /background-color: blue;
         font-size: 2rem;
     }
 
     .carousel-top .carousel-indicators{
-        /background-color: purple;
         margin-bottom: 10px !important;
         width: 100%;
         justify-content: center;
@@ -939,50 +872,20 @@ footer .copyright p{
         width: 80% !important;
         margin: 0 10% !important;
         height: 300px !important;
-        /*-webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0002);*/
     }
 
     .materiais .gallery-swiper .swiper-slide img 
     {
-        /*display: block;*/
         width: 95%;
         max-width: 220px;
-        height: 100%;/*
-        transition: 1s;
-        cursor: pointer;
-        object-fit: cover;
-        object-position: center !important;*/
+        height: 100%;
     }
 
-    .materiais .gallery-swiper .swiper-slide p{/*
-        transition: 1s;*/
+    .materiais .gallery-swiper .swiper-slide p{
         font-size: 2.2rem;
         transform: translateY(85px);
-        height: 60px;/*
-        position: absolute;
-        color: black;
-        bottom: 0;*/
-        /background-color: red;/*
-        width: 70% !important;
-        text-align: center;
-        font-family: goudyOldStyleBold;
-        text-transform: uppercase;
-        transition: 1s;*/
+        height: 60px;
     }
-
-    /*.materiais .gallery-swiper .swiper-slide:hover p{
-    opacity: 1;
-    transform: translateY(-20px);
-}*/
-
-    /*.materiais .gallery-swiper .swiper-slide-active{
-    transition: 1s;
-    padding: 0 0% !important;
-    /margin-top: 70px !important;
-    /transform: translateY(70px);
-    /animation: activeMove 0s;
-    /animation-fill-mode: forwards;
-}*/
 
     @keyframes activeMove {
         0%   {top: 0px;}
@@ -1012,16 +915,6 @@ footer .copyright p{
     }
 
     .swiper-button-next{
-        /*background-image: url(Images/Navbar/fundo.png) !important;
-        background-size: cover;
-        background-position: left;
-        background-color: var(--secondary-color);
-        position: absolute;
-        right: 0 !important;
-        color: white !Important;
-        padding: 5px 10px;
-        width: 40px !Important;
-        height: 50px !important;*/
         right: 0 !important;
     }
 
@@ -1062,14 +955,6 @@ footer .copyright p{
     .empresa{
         padding: 0 0 30px 0;
     }
-
-    /*.empresa .fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}*/
 
     .empresa .imagens{
         margin-left: 0%;
@@ -1144,10 +1029,6 @@ footer .copyright p{
         padding-top: 20px !important;
     }
 
-    footer div{
-        /background-color: darkblue;
-    }
-
     footer .logo{
         padding-top: 0px;
     }
@@ -1158,7 +1039,6 @@ footer .copyright p{
     }
 
     footer .info{
-        /background-color: yellow;
         padding: 20px 2.5%;
     }
 
@@ -1169,7 +1049,6 @@ footer .copyright p{
 
     footer .info a{
         display: flex;
-        /background-color: aqua;
         align-items: center;
         justify-content: center;
         width: 100%;
@@ -1178,7 +1057,6 @@ footer .copyright p{
     footer .info .social{
         align-items: center;
         justify-content: center;
-        /background-color: purple;
     }
 
     footer .info .social a{
@@ -1227,9 +1105,7 @@ footer .copyright p{
     .materiais .gallery-swiper {
         width: 90%;
         margin: 0 auto !important;
-        height: 400px;/*
-        padding-top: 0px !important;
-        background-color: blue;*/
+        height: 400px;
     }
 
     .materiais .gallery-swiper .swiper-slide 
@@ -1332,9 +1208,6 @@ footer .copyright p{
         padding-top: 20px !important;
     }
 
-    footer div{
-        /background-color: darkblue;
-    }
 
     footer .logo{
         padding-top: 0px;
@@ -1346,7 +1219,6 @@ footer .copyright p{
     }
 
     footer .info{
-        /background-color: yellow;
         padding: 20px 2.5%;
     }
 
@@ -1357,7 +1229,6 @@ footer .copyright p{
 
     footer .info a{
         display: flex;
-        /background-color: aqua;
         align-items: center;
         justify-content: center;
         width: 100%;
@@ -1366,7 +1237,6 @@ footer .copyright p{
     footer .info .social{
         align-items: center;
         justify-content: center;
-        /background-color: purple;
     }
 
     footer .info .social a{
