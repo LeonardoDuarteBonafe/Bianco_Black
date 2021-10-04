@@ -215,14 +215,12 @@ window.addEventListener("DOMContentLoaded", function () {
     });
 
     $('.gallery-banner img').click(function(){
-        console.log("clicado: " + $(this).attr('id'));
         localStorage.setItem("nameMaterial", $(this).attr('id'));
         localStorage.setItem("clickedMaterial", "true");
         window.location.href = "produtos.php";
     });
 
     $('.empresa .imagens .pequenas img').click(function(){
-        console.log("clicado: " + $(this).attr('id'));
         var imageGrandeId = $('.empresa .imagens .grande img').attr('id');
         $('.empresa .imagens .grande img').attr('id', $(this).attr('id'));
         $('.empresa .imagens .grande img').attr('src', 'Images/Index/Empresa/imagem' + $(this).attr('id') + ".webp");
