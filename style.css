@@ -154,6 +154,10 @@ header nav .mobile-menu div{
     transform: scale(1.2);
 }
 
+.outubro-rosa img{
+    object-fit: fill !important;
+}
+
 .carousel-top .carousel-inner .carousel-item.active img{
     transform: scale(1);
 }

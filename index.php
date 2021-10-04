@@ -41,7 +41,7 @@
                     <img class="d-block w-100" src="Images/Index/Carousel-Top/banner2.webp">
                     <p>CRISTALLO LIGHT</p>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item outubro-rosa">
                     <img class="d-block w-100" src="Images/Index/Carousel-Top/banner3.webp">
                     <p></p>
                 </div>
