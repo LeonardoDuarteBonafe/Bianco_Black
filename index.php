@@ -53,21 +53,21 @@
         <div id="carousel-top" class="carousel slide carousel-top" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel-top" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-top" data-slide-to="1"></li><!--
-                <li data-target="#carousel-top" data-slide-to="2"></li>-->
+                <li data-target="#carousel-top" data-slide-to="1"></li>
+                <li data-target="#carousel-top" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <!--<div class="carousel-item active">
-                    <img class="d-block w-100" src="Images/Index/Carousel-Top/banner1.gif">
-                    <p>SUPER WHITE</p>
-                </div>-->
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="Images/Index/Carousel-Top/banner1.png">
+                    <img class="d-block w-100" src="Images/Index/Carousel-Top/banner1.webp">
                     <p>SUPER WHITE</p>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="Images/Index/Carousel-Top/banner2.png">
+                    <img class="d-block w-100" src="Images/Index/Carousel-Top/banner2.webp">
                     <p>CRISTALLO LIGHT</p>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="Images/Index/Carousel-Top/banner3.webp">
+                    <p></p>
                 </div>
             </div>
         </div>

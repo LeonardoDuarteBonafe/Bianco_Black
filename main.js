@@ -10,8 +10,8 @@ window.addEventListener("DOMContentLoaded", function () {
                 },
                 carousel_top: {
                     banner1: "SUPER WHITE",
-                    banner2: "SUPER WHITE",
-                    banner3: "CRISTALLO LIGHT",
+                    banner2: "CRISTALLO LIGHT",
+                    banner3: "",
                 },
                 informacao: "For amazing projects",
                 slider_materiais: {
