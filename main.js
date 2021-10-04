@@ -225,10 +225,10 @@ window.addEventListener("DOMContentLoaded", function () {
         console.log("clicado: " + $(this).attr('id'));
         var imageGrandeId = $('.empresa .imagens .grande img').attr('id');
         $('.empresa .imagens .grande img').attr('id', $(this).attr('id'));
-        $('.empresa .imagens .grande img').attr('src', 'Images/Index/Empresa/imagem' + $(this).attr('id') + ".png");
+        $('.empresa .imagens .grande img').attr('src', 'Images/Index/Empresa/imagem' + $(this).attr('id') + ".webp");
 
         $(this).attr('id', imageGrandeId);
-        $(this).attr('src', 'Images/Index/Empresa/imagem' + imageGrandeId + ".png");
+        $(this).attr('src', 'Images/Index/Empresa/imagem' + imageGrandeId + ".webp");
     });
 
     $('.send-form').click(function(){

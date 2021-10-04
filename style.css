@@ -82,7 +82,7 @@ header nav{
     align-items: center;
     height: 100%;
     background: white;
-    background-image: url(Images/Index/Navbar/fundo.png);
+    background-image: url(Images/Index/Navbar/fundo.webp);
     background-size: cover;
     background-color: var(--secondary-color);
 }
@@ -207,7 +207,7 @@ header nav .mobile-menu div{
     margin: 0 !important;
     padding: 0 !important;
     text-align: center;
-    background-image: url(Images/Index/Informacao/fundo.png);
+    background-image: url(Images/Index/Informacao/fundo.webp);
     background-size: cover;
     background-color: var(--secondary-color);
     color: white;
@@ -482,7 +482,7 @@ header nav .mobile-menu div{
     padding: 50px 0; !important;
     margin: 0 !important;
     width: 100%;
-    background-image: url(Images/Index/Formulario/fundo.png);
+    background-image: url(Images/Index/Formulario/fundo.webp);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -577,7 +577,7 @@ footer{
     display: flex;
     justify-content: center;
     color: white;
-    background-image: url(Images/Index/Footer/fundo.png);
+    background-image: url(Images/Index/Footer/fundo.webp);
     background-size: cover;
     background-position: center;
     background-color: var(--secondary-color);
@@ -731,7 +731,7 @@ footer .copyright p{
         width: 300px;
         height: 300px;
         padding: 0 !Important;
-        background-image: url(Images/Index/Navbar/fundo.png);
+        background-image: url(Images/Index/Navbar/fundo.webp);
         background-color: var(--secondary-color);
         background-size: cover;
         z-index: 100;

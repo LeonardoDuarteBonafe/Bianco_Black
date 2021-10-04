@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <link rel="icon" href="Images/Index/Site-Icon/site-icon.png">
+    <link rel="icon" href="Images/Index/Site-Icon/site-icon.webp">
     <title>Bianco e Black</title>
 
     <body class="index-page">
@@ -54,7 +54,7 @@
 
         <!--materiais-->
         <div class="materiais" id="materiais">
-            <img src="Images/Index/Swiper/fundo.png" class="background">
+            <img src="Images/Index/Swiper/fundo.webp" class="background">
             <div class="info">
                 <h1>NOSSOS MATERIAIS</h1>
                 <p>VÁRIAS SUPERFÍCIES, INÚMERAS POSSIBILIDADES</p>
@@ -62,47 +62,47 @@
             <div class="swiper-container gallery-swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide gallery-banner" id="1">
-                        <img src="Images/Index/Swiper/branco-cintilante.png" id="01">
+                        <img src="Images/Index/Swiper/branco-cintilante.webp" id="01">
                         <p>Branco Cintilante</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="2">
-                        <img src="Images/Index/Swiper/branco-dallas.png" id="02">
+                        <img src="Images/Index/Swiper/branco-dallas.webp" id="02">
                         <p>Branco Dallas</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="3">
-                        <img src="Images/Index/Swiper/branco-valentino.png" id="03">
+                        <img src="Images/Index/Swiper/branco-valentino.webp" id="03">
                         <p>Branco Valentino</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="4">
-                        <img src="Images/Index/Swiper/calacatta.png" id="04">
+                        <img src="Images/Index/Swiper/calacatta.webp" id="04">
                         <p>Calacatta</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="5">
-                        <img src="Images/Index/Swiper/cristallo.png" id="05">
+                        <img src="Images/Index/Swiper/cristallo.webp" id="05">
                         <p>Cristallo</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="6">
-                        <img src="Images/Index/Swiper/cristallo-light.png" id="06">
+                        <img src="Images/Index/Swiper/cristallo-light.webp" id="06">
                         <p>Cristallo Light</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="7">
-                        <img src="Images/Index/Swiper/granito-verde-ubatuba.png" id="07">
+                        <img src="Images/Index/Swiper/granito-verde-ubatuba.webp" id="07">
                         <p>Granito Verde Ubatuda</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="8">
-                        <img src="Images/Index/Swiper/marmore-arabescato.png" id="08">
+                        <img src="Images/Index/Swiper/marmore-arabescato.webp" id="08">
                         <p>Mármore Arabescato</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="9">
-                        <img src="Images/Index/Swiper/matarazzo.png" id="09">
+                        <img src="Images/Index/Swiper/matarazzo.webp" id="09">
                         <p>Matarazzo</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="10">
-                        <img src="Images/Index/Swiper/sao-gabriel.png" id="10">
+                        <img src="Images/Index/Swiper/sao-gabriel.webp" id="10">
                         <p>Sao Gabriel</p>
                     </div>
                     <div class="swiper-slide gallery-banner" id="11">
-                        <img src="Images/Index/Swiper/sunset.png" id="11">
+                        <img src="Images/Index/Swiper/sunset.webp" id="11">
                         <p>Sunset</p>
                     </div>
                 </div>
@@ -116,22 +116,22 @@
 
         <div class="carousel-bottom">
             <div class="item">
-                <img src="Images/Index/Carousel-Bottom/banner1.png">
+                <img src="Images/Index/Carousel-Bottom/banner1.webp">
                 <p class="info">INSPIRAÇÕES</p>
                 <p class="produto">MATARAZZO</p>
             </div>
         </div>
 
         <div class="empresa" id="empresa">
-            <img src="Images/Index/Empresa/fundo.png" class="fundo">
+            <img src="Images/Index/Empresa/fundo.webp" class="fundo">
             <div class="imagens">
                 <div class="grande">
-                    <img src="Images/Index/Empresa/imagem1.png" id="1">
+                    <img src="Images/Index/Empresa/imagem1.webp" id="1">
                 </div>
                 <div class="pequenas">
-                    <img src="Images/Index/Empresa/imagem2.png" id="2">
-                    <img src="Images/Index/Empresa/imagem3.png" id="3">
-                    <img src="Images/Index/Empresa/imagem4.png" id="4">
+                    <img src="Images/Index/Empresa/imagem2.webp" id="2">
+                    <img src="Images/Index/Empresa/imagem3.webp" id="3">
+                    <img src="Images/Index/Empresa/imagem4.webp" id="4">
                 </div>
             </div>
             <div class="info">
